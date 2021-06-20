@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "com/kwpugh/more_gems/mixin/DefaultBiomeFeaturesMixin": {
+      "addDefaultOres(Lnet/minecraft/world/biome/GenerationSettings$Builder;)V": "Lnet/minecraft/class_3864;method_17006(Lnet/minecraft/class_5485$class_5495;)V"
+    },
+    "com/kwpugh/more_gems/mixin/PlayerEntityMixin": {
+      "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/kwpugh/more_gems/mixin/DefaultBiomeFeaturesMixin": {
+        "addDefaultOres(Lnet/minecraft/world/biome/GenerationSettings$Builder;)V": "Lnet/minecraft/class_3864;method_17006(Lnet/minecraft/class_5485$class_5495;)V"
+      },
+      "com/kwpugh/more_gems/mixin/PlayerEntityMixin": {
+        "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V"
+      }
+    }
+  }
+}
