@@ -1,6 +1,0 @@
-{
-    "parent": "more_gems:item/tourmaline_bow",
-    "textures": {
-        "layer0": "more_gems:item/tourmaline_bow_pulling_2"
-    }
-}

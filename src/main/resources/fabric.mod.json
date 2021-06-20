@@ -1,21 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "more_gems",
+  "id": "more_gems_fork",
   "version": "${version}",
 
   "name": "More Gems",
   "description": "Adding more gems to the world: citrine, tourmaline. ruby, sapphire, amethyst, topaz, alexandrite, corundum, and carbonado",
   "authors": [
     "Kevin Pugh"
+	"RDKRACZ"
   ],
   "contact": {
-    "homepage": "",
-    "issues": "",
-    "sources": ""
+    "homepage": "https://github.com/RDKRACZ/MoreGemsFork",
+    "issues": "https://github.com/RDKRACZ/MoreGemsFork/issues",
+    "sources": "https://github.com/RDKRACZ/MoreGemsFork"
   },
 
   "license": "MIT",
-  "icon": "assets/more_gems/textures/item/alexandrite.png",
+  "icon": "assets/more_gems/textures/item/tourmaline.png",
 
   "environment": "*",
   "entrypoints": {
@@ -32,12 +33,12 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.11.6",
     "fabric": "*",
     "java": ">=16",
     "minecraft": "1.17.x"
   },
-  "suggests": {
-    "flamingo": "*"
+  "breaks": {
+    "more_gems": "*"
   }
 }
